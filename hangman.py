@@ -9,3 +9,8 @@
 #      - Buchstabe im Wort? -> merken
 #        sonst -> Fehler + 1
 # 4. Gewonnen oder verloren ausgeben
+
+import sys
+
+wort = sys.argv[1]
+print("Das geheime Wort ist:", wort)
