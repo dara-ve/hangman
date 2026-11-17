@@ -13,4 +13,16 @@
 import sys
 
 wort = sys.argv[1]
-print("Das geheime Wort ist:", wort)
+
+import sys
+
+wort = sys.argv[1]
+geraten = []
+
+anzeige = ""
+for buchstabe in wort:
+    if buchstabe in geraten:
+        anzeige = anzeige + buchstabe + " "
+    else:
+        anzeige = anzeige + "_ "
+print(anzeige)
