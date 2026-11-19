@@ -26,3 +26,5 @@ for buchstabe in wort:
     else:
         anzeige = anzeige + "_ "
 print(anzeige)
+
+#neuer Kommentar
